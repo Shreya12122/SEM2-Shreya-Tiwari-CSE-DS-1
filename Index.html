@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Feedback Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #74ebd5, #ACB6E5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .form-container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+            width: 350px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+
+        textarea {
+            resize: none;
+            height: 80px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 15px;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .required {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Feedback Form</h2>
+        <form>
+            
+            <label for="name">Name <span class="required">*</span></label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email <span class="required">*</span></label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="rating">Rating <span class="required">*</span></label>
+            <select id="rating" name="rating" required>
+                <option value="">-- Select Rating --</option>
+                <option value="5">Excellent ⭐⭐⭐⭐⭐</option>
+                <option value="4">Very Good ⭐⭐⭐⭐</option>
+                <option value="3">Good ⭐⭐⭐</option>
+                <option value="2">Fair ⭐⭐</option>
+                <option value="1">Poor ⭐</option>
+            </select>
+
+            <label for="comments">Comments <span class="required">*</span></label>
+            <textarea id="comments" name="comments" required></textarea>
+
+            <button type="submit">Submit Feedback</button>
+
+        </form>
+    </div>
+
+</body>
+</html>
