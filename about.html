@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Myntra Clone</title>
+    <meta name="description" content="Learn about the author, development journey, and idea behind the Myntra Clone project.">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html"><img src="unnamed.jpeg" alt="Myntra Logo"></a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="men.html">Men</a></li>
+                    <li><a href="women.html">Women</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <form action="#" method="get">
+                    <input type="text" name="search" placeholder="Search for products, brands and more">
+                    <button type="submit">Go</button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1 class="page-title page-title-centered">About the Project</h1>
+        
+        <div class="category-page-layout" style="flex-direction: column; gap: 40px; max-width: 900px; margin: 0 auto;">
+            <!-- Main Story Card -->
+            <div class="product-card" style="padding: 40px; margin-bottom: 20px; width: 100%;">
+                <h2 style="color: var(--primary-color); margin-top: 0; font-size: 1.8em; margin-bottom: 20px;">The Inspiration & Idea</h2>
+                <p style="font-size: 1.1em; line-height: 1.8; color: #535766; margin-bottom: 20px;">
+                    This project was conceived as a high-fidelity frontend replica of the popular e-commerce platform <strong>Myntra</strong>. Built as part of a CSE Web Development Lab assignment, the core objective was to move beyond a static mockup and create a premium, interactive client-side web application.
+                </p>
+                <p style="font-size: 1.1em; line-height: 1.8; color: #535766;">
+                    The design emphasizes tactile aesthetics, glassmorphism, responsive navigation menus, and smooth 3D micro-interactions. It serves as a showcase of modern CSS grid layouts combined with custom-written Vanilla JavaScript state machines.
+                </p>
+            </div>
+
+            <!-- Author Journey Card -->
+            <div class="product-card" style="padding: 40px; margin-bottom: 20px; width: 100%;">
+                <h2 style="color: var(--secondary-color); margin-top: 0; font-size: 1.8em; margin-bottom: 20px;">How It Was Built</h2>
+                <p style="font-size: 1.1em; line-height: 1.8; color: #535766; margin-bottom: 15px;">
+                    The developer, <strong>Shreya Tiwari</strong>, constructed this project utilizing pure frontend web technologies:
+                </p>
+                <ul style="font-size: 1.1em; line-height: 1.8; color: #535766; padding-left: 20px; margin-bottom: 20px;">
+                    <li><strong>Semantic HTML5 Structure</strong>: Formulated independent documents for Home, Men's, Women's, Login, and Cart pages with clean content separation.</li>
+                    <li><strong>Vanilla CSS Grid & Flexbox</strong>: Refactored layouts using modern design variable configurations, responsive breakpoints, and tactile button compressions.</li>
+                    <li><strong>Real-time JS State Engine</strong>: Coded a lightweight state engine in pure JavaScript handling cart updates, item deletions, and layout animations.</li>
+                    <li><strong>3D Hardware Acceleration</strong>: Applied perspective-based mouse tracking math to make listings tilt responsively on cursor hovers.</li>
+                </ul>
+            </div>
+
+            <!-- Author Profile Details -->
+            <div class="product-card" style="padding: 40px; width: 100%; text-align: center;">
+                <h2 style="color: var(--primary-color); margin-top: 0; font-size: 1.8em; margin-bottom: 15px;">Developer Profile</h2>
+                <p style="font-size: 1.25em; font-weight: 700; margin-bottom: 5px; color: var(--text-color);">Shreya Tiwari</p>
+                <p style="font-size: 1.1em; color: #535766; margin-bottom: 5px;">B.Tech Computer Science and Engineering</p>
+                <p style="font-size: 1.1em; color: #535766; margin-bottom: 20px;">Admission Number: <strong>2025b15410143</strong></p>
+                <a href="index.html" class="btn" style="display: inline-block; padding: 14px 40px; font-size: 1em;">Back to Shopping</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-links">
+                <a href="about.html">About Us</a>
+                <a href="#">Contact</a>
+                <a href="privacy.html">Privacy Policy</a>
+            </div>
+            <div class="footer-credit">
+                <p>Made by Shreya Tiwari</p>
+                <p>Admission Number: 2025b15410143</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

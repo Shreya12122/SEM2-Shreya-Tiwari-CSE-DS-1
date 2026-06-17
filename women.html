@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's Fashion - Myntra</title>
+    <meta name="description" content="Shop the latest fashion for women on Myntra.">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-container">
+            <div class="logo"><a href="index.html"><img src="unnamed.jpeg" alt="Myntra Logo"></a></div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="men.html">Men</a></li>
+                    <li><a href="women.html" class="active">Women</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <form action="#" method="get">
+                    <input type="text" name="search" placeholder="Search for products, brands and more">
+                    <button type="submit">Go</button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <h1 class="page-title">Women's Collection</h1>
+        <div class="category-page-layout">
+            <aside class="filters">
+                <div class="filter-section">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><label><input type="checkbox" name="category" value="dresses"> Dresses</label></li>
+                        <li><label><input type="checkbox" name="category" value="kurtas"> Kurtas</label></li>
+                        <li><label><input type="checkbox" name="category" value="handbags"> Handbags</label></li>
+                        <li><label><input type="checkbox" name="category" value="jewellery"> Jewellery</label></li>
+                        <li><label><input type="checkbox" name="category" value="jeans"> Jeans</label></li>
+                        <li><label><input type="checkbox" name="category" value="shoes"> Footwear</label></li>
+                    </ul>
+                </div>
+                <div class="filter-section">
+                    <h3>Brands</h3>
+                    <ul>
+                        <li><label><input type="checkbox" name="brand" value="tokyo-talkies"> Tokyo Talkies</label></li>
+                        <li><label><input type="checkbox" name="brand" value="anouk"> Anouk</label></li>
+                        <li><label><input type="checkbox" name="brand" value="caprese"> Caprese</label></li>
+                        <li><label><input type="checkbox" name="brand" value="libas"> Libas</label></li>
+                        <li><label><input type="checkbox" name="brand" value="vero-moda"> Vero Moda</label></li>
+                        <li><label><input type="checkbox" name="brand" value="only"> Only</label></li>
+                        <li><label><input type="checkbox" name="brand" value="dressberry"> DressBerry</label></li>
+                    </ul>
+                </div>
+            </aside>
+            <section class="products-list">
+                <div class="product-grid">
+                    <div class="product-card" data-category="dresses" data-brand="tokyo-talkies">
+                        <img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/25067532/2023/9/30/1fd71449-0325-4eb4-a700-adef71d6a1161696080889110TokyoTalkiesPinkFloralPrintMaxiDress1.jpg" alt="Women's Dress">
+                        <div class="product-info">
+                            <h3 class="brand">Tokyo Talkies</h3>
+                            <p class="name">Women Pink Floral Smocked Dress</p>
+                            <p class="price">₹1499</p>
+                            <button class="btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="kurtas" data-brand="anouk">
+                        <img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/24249110/2023/8/4/143bb714-f142-4b6d-ab18-0d340b759abb1691130893196-Anouk-Women-Kurtas-4161691130892719-1.jpg" alt="Women's Kurta">
+                        <div class="product-info">
+                            <h3 class="brand">Anouk</h3>
+                            <p class="name">Women Green Ethnic Motifs Kurta</p>
+                            <p class="price">₹899</p>
+                            <button class="btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="handbags" data-brand="caprese">
+                        <img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2025/MAY/20/tsib4sEi_ca8bf5d4f48d4e08a9806204377e7273.jpg" alt="Women's Handbag">
+                        <div class="product-info">
+                            <h3 class="brand">Caprese</h3>
+                            <p class="name">Women Yellow Shoulder Bag</p>
+                            <p class="price">₹2599</p>
+                            <button class="btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="dresses" data-brand="vero-moda">
+                        <img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2025/AUGUST/21/wFl5w68c_81611060ca45414eba24efc79eed0e24.jpg" alt="Women's Top">
+                        <div class="product-info">
+                            <h3 class="brand">Vero Moda</h3>
+                            <p class="name">Pink Puff Sleeve Crop Top</p>
+                            <p class="price">₹1299</p>
+                            <button class="btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="jeans" data-brand="only">
+                        <img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/25854412/2023/11/11/4677acbf-ffc0-4e37-a046-631f0513a31e1699674938788ONLYWomenBlueFlaredHigh-RiseLowDistressLightFadeJeans6.jpg" alt="Women's Jeans">
+                        <div class="product-info">
+                            <h3 class="brand">Only</h3>
+                            <p class="name">Blue Flared High-Rise Jeans</p>
+                            <p class="price">₹2499</p>
+                            <button class="btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="shoes" data-brand="dressberry">
+                        <img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/29986922/2024/6/18/00a72d3d-f96e-4992-84ef-77999a94b87e1718682402473DressBerryBlockPumpswithBows7.jpg" alt="Women's Heels">
+                        <div class="product-info">
+                            <h3 class="brand">DressBerry</h3>
+                            <p class="name">Block Pumps with Bows</p>
+                            <p class="price">₹1799</p>
+                            <button class="btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <!-- Expanded listings from Myntra -->
+                    <div class="product-card" data-category="kurtas" data-brand="libas">
+                        <img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/24249110/2023/8/4/143bb714-f142-4b6d-ab18-0d340b759abb1691130893196-Anouk-Women-Kurtas-4161691130892719-1.jpg" alt="Women's Kurta">
+                        <div class="product-info">
+                            <h3 class="brand">Libas</h3>
+                            <p class="name">Libas Women Pink Ethnic Motif Kurta</p>
+                            <p class="price">₹1999</p>
+                            <button class="btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="dresses" data-brand="vero-moda">
+                        <img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/25067532/2023/9/30/1fd71449-0325-4eb4-a700-adef71d6a1161696080889110TokyoTalkiesPinkFloralPrintMaxiDress1.jpg" alt="Women's Dress">
+                        <div class="product-info">
+                            <h3 class="brand">Vero Moda</h3>
+                            <p class="name">Vero Moda Pink Floral Maxi Dress</p>
+                            <p class="price">₹2799</p>
+                            <button class="btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="jeans" data-brand="only">
+                        <img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/25854412/2023/11/11/4677acbf-ffc0-4e37-a046-631f0513a31e1699674938788ONLYWomenBlueFlaredHigh-RiseLowDistressLightFadeJeans6.jpg" alt="Women's Jeans">
+                        <div class="product-info">
+                            <h3 class="brand">Only</h3>
+                            <p class="name">Only Blue Flared High-Rise Jeans</p>
+                            <p class="price">₹2199</p>
+                            <button class="btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="handbags" data-brand="dressberry">
+                        <img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2025/MAY/20/tsib4sEi_ca8bf5d4f48d4e08a9806204377e7273.jpg" alt="Women's Handbag">
+                        <div class="product-info">
+                            <h3 class="brand">DressBerry</h3>
+                            <p class="name">DressBerry Tan Textured Shoulder Bag</p>
+                            <p class="price">₹499</p>
+                            <button class="btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="handbags" data-brand="caprese">
+                        <img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2025/MAY/20/tsib4sEi_ca8bf5d4f48d4e08a9806204377e7273.jpg" alt="Caprese Bag">
+                        <div class="product-info">
+                            <h3 class="brand">Caprese</h3>
+                            <p class="name">Women Tan Textured Tote Handbag</p>
+                            <p class="price">₹2899</p>
+                            <button class="btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="dresses" data-brand="tokyo-talkies">
+                        <img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/25067532/2023/9/30/1fd71449-0325-4eb4-a700-adef71d6a1161696080889110TokyoTalkiesPinkFloralPrintMaxiDress1.jpg" alt="Tokyo Talkies Dress">
+                        <div class="product-info">
+                            <h3 class="brand">Tokyo Talkies</h3>
+                            <p class="name">Women Red Floral Printed Jumpsuit</p>
+                            <p class="price">₹1299</p>
+                            <button class="btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-links">
+                <a href="about.html">About Us</a>
+                <a href="#">Contact</a>
+                <a href="privacy.html">Privacy Policy</a>
+            </div>
+            <div class="footer-credit">
+                <p>Made by Shreya Tiwari</p>
+                <p>Admission Number: 2025b15410143</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Fashion - Myntra</title>
+    <meta name="description" content="Shop the latest fashion for men on Myntra.">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html"><img src="unnamed.jpeg" alt="Myntra Logo"></a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="men.html" class="active">Men</a></li>
+                    <li><a href="women.html">Women</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <form action="#" method="get">
+                    <input type="text" name="search" placeholder="Search for products, brands and more">
+                    <button type="submit">Go</button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <h1 class="page-title">Men's Collection</h1>
+        <div class="category-page-layout">
+            <aside class="filters">
+                <div class="filter-section">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><label><input type="checkbox" name="category" value="tshirts"> T-Shirts</label></li>
+                        <li><label><input type="checkbox" name="category" value="jeans"> Jeans</label></li>
+                        <li><label><input type="checkbox" name="category" value="shoes"> Footwear</label></li>
+                        <li><label><input type="checkbox" name="category" value="watches"> Watches</label></li>
+                    </ul>
+                </div>
+                <div class="filter-section">
+                    <h3>Brands</h3>
+                    <ul>
+                        <li><label><input type="checkbox" name="brand" value="roaster"> Roadster</label></li>
+                        <li><label><input type="checkbox" name="brand" value="levis"> Levi's</label></li>
+                        <li><label><input type="checkbox" name="brand" value="puma"> Puma</label></li>
+                        <li><label><input type="checkbox" name="brand" value="fossil"> Fossil</label></li>
+                        <li><label><input type="checkbox" name="brand" value="wrogn"> WROGN</label></li>
+                        <li><label><input type="checkbox" name="brand" value="hrx"> HRX</label></li>
+                    </ul>
+                </div>
+            </aside>
+            <section class="products-list">
+                <div class="product-grid">
+                    <div class="product-card" data-category="tshirts" data-brand="roaster">
+                        <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/22680040/2023/6/7/8e3ee918-c170-4f5f-8c74-ab489e7cd8d81686127543680-Roadster-Men-Maroon-Polo-Collar-T-shirt-8661686127543220-1.jpg" alt="Men's T-Shirt">
+                        <div class="product-info">
+                            <h3 class="brand">Roadster</h3>
+                            <p class="name">Men Blue Solid Polo T-shirt</p>
+                            <p class="price">₹599</p>
+                            <button class="btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="jeans" data-brand="levis">
+                        <img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/25756846/2024/2/5/c8d52b37-88d0-4a63-b588-4da56a2a92ed1707127549226-Levis-Men-511-Slim-Fit-Light-Fade-Stretchable-Jeans-42717071-1.jpg" alt="Men's Jeans">
+                        <div class="product-info">
+                            <h3 class="brand">Levi's</h3>
+                            <p class="name">Men 511 Slim Fit Jeans</p>
+                            <p class="price">₹2199</p>
+                            <button class="btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="shoes" data-brand="puma">
+                        <img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2025/JUNE/18/5fOFGmLD_88727ccbda10418fb91a3cfae7523049.jpg" alt="Men's Sneakers">
+                        <div class="product-info">
+                            <h3 class="brand">Puma</h3>
+                            <p class="name">Men Grey Sneakers</p>
+                            <p class="price">₹3499</p>
+                            <button class="btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="watches" data-brand="fossil">
+                        <img src="https://fossil.scene7.com/is/image/FossilPartners/FTW40531_main?$sfcc_fos_hi-res$" alt="Men's Watch">
+                        <div class="product-info">
+                            <h3 class="brand">Fossil</h3>
+                            <p class="name">Men Gen 5 Smartwatch</p>
+                            <p class="price">₹22995</p>
+                            <button class="btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="tshirts" data-brand="wrogn">
+                        <img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2025/SEPTEMBER/4/yo8zMdWe_1fe61db623b94cdf890d2649a45931ee.jpg" alt="Men's Shirt">
+                        <div class="product-info">
+                            <h3 class="brand">WROGN</h3>
+                            <p class="name">Men Slim Fit Casual Shirt</p>
+                            <p class="price">₹1299</p>
+                            <button class="btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="jeans" data-brand="mast-harbour">
+                        <img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2025/AUGUST/8/jG5UPwaZ_03f419844b9b4e55bcae0d1b92e2ff90.jpg" alt="Men's Trousers">
+                        <div class="product-info">
+                            <h3 class="brand">Mast & Harbour</h3>
+                            <p class="name">Men Regular Fit Trousers</p>
+                            <p class="price">₹999</p>
+                            <button class="btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <!-- Expanded listings from Myntra -->
+                    <div class="product-card" data-category="tshirts" data-brand="wrogn">
+                        <img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2025/SEPTEMBER/4/yo8zMdWe_1fe61db623b94cdf890d2649a45931ee.jpg" alt="Men's Casual Shirt">
+                        <div class="product-info">
+                            <h3 class="brand">WROGN</h3>
+                            <p class="name">Men Olive Solid Slim Fit Shirt</p>
+                            <p class="price">₹1499</p>
+                            <button class="btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="shoes" data-brand="hrx">
+                        <img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2025/JUNE/18/5fOFGmLD_88727ccbda10418fb91a3cfae7523049.jpg" alt="Men's Running Shoes">
+                        <div class="product-info">
+                            <h3 class="brand">HRX</h3>
+                            <p class="name">Men Grey Athletix Running Shoes</p>
+                            <p class="price">₹1899</p>
+                            <button class="btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="tshirts" data-brand="roaster">
+                        <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/22680040/2023/6/7/8e3ee918-c170-4f5f-8c74-ab489e7cd8d81686127543680-Roadster-Men-Maroon-Polo-Collar-T-shirt-8661686127543220-1.jpg" alt="Men's Polo T-shirt">
+                        <div class="product-info">
+                            <h3 class="brand">Roadster</h3>
+                            <p class="name">Men Maroon Solid Polo T-shirt</p>
+                            <p class="price">₹599</p>
+                            <button class="btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="watches" data-brand="fossil">
+                        <img src="https://fossil.scene7.com/is/image/FossilPartners/FTW40531_main?$sfcc_fos_hi-res$" alt="Men's Fossil Watch">
+                        <div class="product-info">
+                            <h3 class="brand">Fossil</h3>
+                            <p class="name">Men Gen 5 Chronograph Smartwatch</p>
+                            <p class="price">₹22995</p>
+                            <button class="btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="jeans" data-brand="levis">
+                        <img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/25756846/2024/2/5/c8d52b37-88d0-4a63-b588-4da56a2a92ed1707127549226-Levis-Men-511-Slim-Fit-Light-Fade-Stretchable-Jeans-42717071-1.jpg" alt="Men's Chinos">
+                        <div class="product-info">
+                            <h3 class="brand">Levi's</h3>
+                            <p class="name">Men 511 Slim Fit Stretchable Jeans</p>
+                            <p class="price">₹2199</p>
+                            <button class="btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-category="tshirts" data-brand="hrx">
+                        <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/22680040/2023/6/7/8e3ee918-c170-4f5f-8c74-ab489e7cd8d81686127543680-Roadster-Men-Maroon-Polo-Collar-T-shirt-8661686127543220-1.jpg" alt="Men's HRX T-shirt">
+                        <div class="product-info">
+                            <h3 class="brand">HRX</h3>
+                            <p class="name">Men Maroon Crew Neck Active T-shirt</p>
+                            <p class="price">₹699</p>
+                            <button class="btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-links">
+                <a href="about.html">About Us</a>
+                <a href="#">Contact</a>
+                <a href="privacy.html">Privacy Policy</a>
+            </div>
+            <div class="footer-credit">
+                <p>Made by Shreya Tiwari</p>
+                <p>Admission Number: 2025b15410143</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
