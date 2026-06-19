@@ -3,139 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Myntra Clone - Home</title>
-    <meta name="description" content="A simple e-commerce website inspired by Myntra.">
-    <link rel="stylesheet" href="style.css">
-    <script src="main.js" defer></script>
+    <meta name="description" content="Responsive Web Page using Bootstrap Grid System">
+    <title>My Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <header class="site-header">
-        <div class="container header-container">
-            <div class="logo">
-                <a href="index.html"><img src="unnamed.jpeg" alt="Myntra Logo"></a>
-            </div>
-            <nav class="main-nav">
-                <ul>
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="men.html">Men</a></li>
-                    <li><a href="women.html">Women</a></li>
-                    <li><a href="login.html">Login</a></li>
-                    <li><a href="cart.html">Cart</a></li>
-                </ul>
-            </nav>
-            <div class="search-bar">
-                <form action="#" method="get">
-                    <input type="text" name="search" placeholder="Search for products, brands and more">
-                    <button type="submit">Go</button>
-                </form>
-            </div>
+<!-- Header -->
+<div class="header">
+    <h1>My Website</h1>
+</div>
+<!-- Navigation Bar -->
+<div class="navbar-custom">
+    <div class="logo">Website</div>
+    <div class="menu">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </div>
+</div>
+<!-- Content -->
+<div class="container py-4">
+    <div class="row">
+        <div class="col-12 col-md-6 column">
+            <h2>Column 1</h2>
+            <p>This is the first column. On small devices the column occupies full width, while on medium and large devices it occupies half width using Bootstrap grid classes.</p>
         </div>
-    </header>
-    <main class="container">
-        <h1 class="page-title">Featured Products</h1>
-        <section class="product-grid">
-            <div class="product-card">
-                <a href="#">
-                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/22680040/2023/6/7/8e3ee918-c170-4f5f-8c74-ab489e7cd8d81686127543680-Roadster-Men-Maroon-Polo-Collar-T-shirt-8661686127543220-1.jpg" alt="Blue Polo T-Shirt">
-                </a>
-                <div class="product-info">
-                    <h3 class="brand">Roadster</h3>
-                    <p class="name">Men Solid Pique Polo T-shirt</p>
-                    <p class="price">₹599</p>
-                    <button class="btn">Add to Cart</button>
-                </div>
-            </div>
-            <div class="product-card">
-                <a href="#">
-                    <img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/25067532/2023/9/30/1fd71449-0325-4eb4-a700-adef71d6a1161696080889110TokyoTalkiesPinkFloralPrintMaxiDress1.jpg" alt="Pink Floral Dress">
-                </a>
-                <div class="product-info">
-                    <h3 class="brand">Tokyo Talkies</h3>
-                    <p class="name">Women Pink Floral Smocked Dress</p>
-                    <p class="price">₹1499</p>
-                    <button class="btn">Add to Cart</button>
-                </div>
-            </div>
-            <div class="product-card">
-                <a href="#">
-                    <img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2025/JUNE/18/5fOFGmLD_88727ccbda10418fb91a3cfae7523049.jpg" alt="Grey Sneakers">
-                </a>
-                <div class="product-info">
-                    <h3 class="brand">Puma</h3>
-                    <p class="name">Unisex Grey Solid Sneakers</p>
-                    <p class="price">₹3499</p>
-                    <button class="btn">Add to Cart</button>
-                </div>
-            </div>
-            <div class="product-card">
-                <a href="#">
-                    <img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/24249110/2023/8/4/143bb714-f142-4b6d-ab18-0d340b759abb1691130893196-Anouk-Women-Kurtas-4161691130892719-1.jpg" alt="Green Kurta">
-                </a>
-                <div class="product-info">
-                    <h3 class="brand">Anouk</h3>
-                    <p class="name">Women Green Ethnic Motifs Kurta</p>
-                    <p class="price">₹899</p>
-                    <button class="btn">Add to Cart</button>
-                </div>
-            </div>
-            <div class="product-card">
-                <a href="#">
-                    <img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/25756846/2024/2/5/c8d52b37-88d0-4a63-b588-4da56a2a92ed1707127549226-Levis-Men-511-Slim-Fit-Light-Fade-Stretchable-Jeans-42717071-1.jpg" alt="Brown Jeans">
-                </a>
-                <div class="product-info">
-                    <h3 class="brand">Levi's</h3>
-                    <p class="name">Men 511 Slim Fit Jeans</p>
-                    <p class="price">₹2199</p>
-                    <button class="btn">Add to Cart</button>
-                </div>
-            </div>
-            <div class="product-card">
-                <a href="#">
-                     <img src="https://fossil.scene7.com/is/image/FossilPartners/FTW40531_main?$sfcc_fos_hi-res$" alt="Black Watch">
-                </a>
-                <div class="product-info">
-                    <h3 class="brand">Fossil</h3>
-                    <p class="name">Men Gen 5 Smartwatch</p>
-                    <p class="price">₹22995</p>
-                    <button class="btn">Add to Cart</button>
-                </div>
-            </div>
-            <div class="product-card">
-                <a href="#">
-                    <img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2025/MAY/20/tsib4sEi_ca8bf5d4f48d4e08a9806204377e7273.jpg" alt="Yellow Handbag">
-                </a>
-                <div class="product-info">
-                    <h3 class="brand">Caprese</h3>
-                    <p class="name">Women Yellow Shoulder Bag</p>
-                    <p class="price">₹2599</p>
-                    <button class="btn">Add to Cart</button>
-                </div>
-            </div>
-            <div class="product-card">
-                <a href="#">
-                    <img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2025/DECEMBER/15/xFMzbHPh_d0f7f7ec433344c6b166da35cccc1c2c.jpg" alt="Purple Jacket">
-                </a>
-                <div class="product-info">
-                    <h3 class="brand">H&M</h3>
-                    <p class="name">Kids Puffer Jacket</p>
-                    <p class="price">₹1999</p>
-                    <button class="btn">Add to Cart</button>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer class="site-footer">
-        <div class="container footer-container">
-            <div class="footer-links">
-                <a href="about.html">About Us</a>
-                <a href="#">Contact</a>
-                <a href="privacy.html">Privacy Policy</a>
-            </div>
-            <div class="footer-credit">
-                <p>Made by Shreya Tiwari</p>
-                <p>Admission Number: 2025b15410143</p>
-            </div>
+        <div class="col-md-auto d-none d-md-block divider"></div>
+        <div class="col-12 col-md-6 column">
+            <h2>Column 2</h2>
+            <p>This is the second column. Bootstrap grid system helps to create responsive layout.</p>
         </div>
-    </footer>
+    </div>
+</div>
+<!-- Footer -->
+<div class="footer">
+    Copyright &copy; 2026 My Website
+</div>
 </body>
 </html>
